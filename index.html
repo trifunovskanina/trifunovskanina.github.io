@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nina Trifunovska - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top">Nina Trifunovska</a>
+      <nav aria-label="Primary navigation">
+<!--        <a href="#about">About</a>-->
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+      </nav>
+      <a class="nav-github" href="https://github.com/trifunovskanina" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-content">
+        <div class="eyebrow">Machine Learning · Software Engineering</div>
+        <h1>Building systems,<br><span>models, and ideas.</span></h1>
+        <p class="hero-copy">
+          I am Nina Trifunovska, pursuing Software Engineering and Information Systems at the Faculty of Computer Science and Engineering,
+          Ss. Cyril and Methodius University in Skopje, Macedonia.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View projects</a>
+          <a class="button button-secondary" href="https://github.com/trifunovskanina" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-profile">
+        <img src="https://github.com/trifunovskanina.png?size=1480" alt="Nina Trifunovska profile picture">
+      </div>
+    </section>
+
+    <section id="experience" class="section container">
+      <div class="container">
+        <div class="section-label">01 / Experience</div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">Present</div>
+            <div>
+              <h3>Laboratory Teaching Assistant</h3>
+              <p class="timeline-org">Faculty of Computer Science and Engineering — Skopje</p>
+              <p>Algorithms & Data Structures <br/>Applied Algorithms & Data Structures</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--    <section id="about" class="section container">-->
+<!--      <div class="section-label">01 / About</div>-->
+<!--      <div class="two-column">-->
+<!--        <div>-->
+<!--          <h2>Interests</h2>-->
+<!--        </div>-->
+<!--        <div class="prose">-->
+<!--          <p>-->
+<!--          </p>-->
+<!--          <p>-->
+<!--          </p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </section>-->
+
+    <section id="projects" class="section container">
+      <div class="container">
+        <div class="section-label">02 / Selected projects</div>
+
+        <div class="project-grid project-grid-four">
+          <article class="project-card">
+            <div class="card-top"><span>01</span><span>Machine Learning · Systems</span></div>
+            <h3>Digital Asset Analytics System</h3>
+            <p>
+              A containerized system composed of a Spring Boot application, two FastAPI microservices, and a PostgreSQL database.
+            <p>
+            <div class="tags"><span>PyTorch</span><span>FastAPI</span><span>Spring Boot</span><span>Docker</span></div>
+            <a class="text-link" href="https://github.com/trifunovskanina/digital-asset-analytics-system" target="_blank" rel="noreferrer">View repository ↗</a>
+          </article>
+
+          <article class="project-card">
+            <div class="card-top"><span>02</span><span>Backend Engineering · Security</span></div>
+            <h3>Internship Management System</h3>
+            <p>
+              A system for managing internships, built using Spring Boot, Spring Security, Thymeleaf, and PostgreSQL with strict role-based access control (RBAC).
+            </p>
+            <div class="tags"><span>Java</span><span>Spring Security</span><span>PostgreSQL</span><span>Docker</span></div>
+            <a class="text-link" href="https://github.com/trifunovskanina/internship-management-system" target="_blank" rel="noreferrer">View repository ↗</a>
+          </article>
+
+          <article class="project-card">
+            <div class="card-top"><span>03</span><span>Database Engineering</span></div>
+            <h3>Internship Management Database</h3>
+            <p>
+              The project emphasizes correct relational modeling, strong data integrity enforcement, and measurable performance considerations using PostgreSQL.
+            </p>
+            <div class="tags"><span>PostgreSQL</span><span>SQL</span><span>PL/pgSQL</span><span>3NF</span></div>
+            <a class="text-link" href="https://github.com/trifunovskanina/internship-management-database" target="_blank" rel="noreferrer">View repository ↗</a>
+          </article>
+
+          <article class="project-card">
+            <div class="card-top"><span>04</span><span>Machine Learning · Research</span></div>
+            <h3>Gaussian Model Comparison</h3>
+            <p>
+              A comparative study of Gaussian Naive Bayes, Linear Discriminant Analysis,
+              and Quadratic Discriminant Analysis examining statistical assumptions and predictive behavior under class imbalance.
+            </p>
+            <div class="tags"><span>Python</span><span>scikit-learn</span><span>Pandas</span><span>SMOTE</span></div>
+            <a class="text-link" href="https://github.com/trifunovskanina/gaussian-model-comparison" target="_blank" rel="noreferrer">View repository ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <div class="section-label">03 / Skills</div>
+      <div class="skills-layout">
+        <div>
+          <h2>Technical Stack</h2>
+          <p class="muted">A technical stack for Data Science, Machine Learning, Backend Development, and Databases.</p>
+        </div>
+        <div class="skill-list">
+          <div class="skill-group">
+            <h4>Languages</h4>
+            <p>Python · Java · C# · SQL · HTML · CSS</p>
+          </div>
+          <div class="skill-group">
+            <h4>Machine Learning & Data Science</h4>
+            <p>PyTorch · scikit-learn · Hugging Face · Pandas · NumPy · Matplotlib · Seaborn</p>
+          </div>
+          <div class="skill-group">
+            <h4>Frameworks & Libraries</h4>
+            <p>FastAPI · Spring Boot · Spring Security · Thymeleaf</p>
+          </div>
+          <div class="skill-group">
+            <h4>Databases & Tools</h4>
+            <p>PostgreSQL · Docker · Git · GitHub · Jupyter</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section container">
+      <div class="container">
+        <div class="section-label">04 / Education</div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">Education</div>
+            <div>
+              <h3>Bachelor of Science in Computer Science</h3>
+              <p class="timeline-org">Faculty of Computer Science and Engineering - Skopje</p>
+              <p>Software Engineering and Information Systems</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">Education</div>
+            <div>
+              <h3>High School Gymnasium</h3>
+              <p class="timeline-org">High School Gymnasium Orce Nikolov - Skopje</p>
+              <p>Mathematics and Physics</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© <span id="year"></span> · Nina Trifunovska</span>
+    <span></span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
