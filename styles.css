@@ -298,8 +298,6 @@ h2 {
   .footer { min-height: 70px; }
 }
 
-
-/* Dark aesthetic refinements */
 ::selection {
   background: var(--accent);
   color: #07100a;
