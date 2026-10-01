@@ -1,3 +1,1 @@
 ## Nina Trifunovska - Portfolio
-
----
