@@ -282,7 +282,7 @@ h2 {
 }
 
 .project-card {
-  background: var(--surface);
+  background: var(--bg);
   padding: 28px 26px 30px;
   height: 100%;
   display: flex;
