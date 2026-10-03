@@ -1,4 +1,4 @@
-## My Personal Website
+## Personal Website
 
 My personal portfolio website, showcasing my background, projects, technical skills, experience and education.
 
