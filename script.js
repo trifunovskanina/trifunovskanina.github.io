@@ -3,11 +3,12 @@ const root = document.documentElement;
 
 const savedTheme = localStorage.getItem("theme");
 
-if (savedTheme === "light") {
+if (savedTheme === "dark") {
+    themeToggle.textContent = "☀";
+} else {
     root.classList.add("light");
     themeToggle.textContent = "☾";
-} else
-    themeToggle.textContent = "☀";
+}
 
 themeToggle.addEventListener("click", () => {
     root.classList.toggle("light");
