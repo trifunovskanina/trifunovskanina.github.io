@@ -305,7 +305,9 @@ h2 {
 
 .card-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 14px;
   color: var(--muted);
   margin-bottom: 44px;
 }
