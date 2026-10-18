@@ -243,7 +243,7 @@ a {
 }
 
 .section {
-  padding: 48px 0;
+  padding: 88px 0;
   border-top: 1px solid var(--line);
 }
 
@@ -360,7 +360,7 @@ h2 {
   display: grid;
   grid-template-columns: 160px 1fr;
   gap: 40px;
-  padding: 35px 0;
+  padding: 40px 0;
   border-top: 1px solid var(--line);
 }
 
