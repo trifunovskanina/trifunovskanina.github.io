@@ -126,8 +126,8 @@ a {
   width: min(var(--max), calc(100% - 48px));
   max-width: var(--max);
   margin-inline: auto;
-  padding-top: 104px;
-  padding-bottom: 104px;
+  padding-top: 84px;
+  padding-bottom: 84px;
   display: grid;
   grid-template-columns: 2fr 1fr;
   column-gap: 0;
@@ -248,7 +248,7 @@ a {
 }
 
 .section-label {
-  margin-bottom: 44px;
+  margin-bottom: 24px;
 }
 
 h2 {
